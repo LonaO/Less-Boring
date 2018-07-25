@@ -2,10 +2,12 @@
 <head>
   {% include head.html %}
 </head>
-<body>
-  {% for page in site.pages %}
-  {{ page.title }}
-  {% endfor %}
-  {{ content }}
+<<body>
+  <div class="pagewrapper">
+    <div class="pageheader"></div>
+    <div class="pagesidebar"></div>
+    <div class="pagemain"></div>
+    <div class="pagefooter"></div>
+  </div>
 </body>
 </html>
