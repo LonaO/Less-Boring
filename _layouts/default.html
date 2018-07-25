@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {% for page in site.pages %}
+  {{ page.title }}
+  {% endfor %}
+  {{ content }}
+</body>
+</html>
